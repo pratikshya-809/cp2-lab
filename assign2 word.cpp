@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	char s[20];
+	int i,count=0;
+	printf("enter a word");
+	gets(s);
+	for(i=0;s[i]!=0;i++)
+	if(s[i]==32)
+	count++;
+}
